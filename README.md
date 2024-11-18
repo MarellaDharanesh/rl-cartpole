@@ -34,10 +34,11 @@ ii) 1: Push cart to the right
 * Document and optimize the code for readability and efficiency, adding comments and refining variable names where necessary.
 
 ## MONTE CARLO CONTROL FUNCTION
-```
-NAME: Marella Dharanesh
-REGISTER NUMBER:212222240062
-```
+
+### Name : Marella Dharanesh
+### Register Number : 212222240062
+
+
 ```
 def mc_control (env,n_bins=g_bins, gamma = 1.0,
                 init_alpha = 0.5,min_alpha = 0.01, alpha_decay_ratio = 0.5,
@@ -103,17 +104,23 @@ def mc_control (env,n_bins=g_bins, gamma = 1.0,
 
 ## OUTPUT:
 ###   1. Specify the average number of steps achieved within two minutes when the Monte Carlo (MC) control algorithm is initiated with zero-initialized Q-values..
-![WhatsApp Image 2024-11-12 at 16 14 02_df16512b](https://github.com/user-attachments/assets/ef4d3842-6ae7-4255-a8da-11fc80dcfa2e)
+![image](https://github.com/user-attachments/assets/bddb1fd3-7878-4170-95ce-27298cf388b9)
+![image](https://github.com/user-attachments/assets/c2ba6ede-d9e6-42fb-b87b-68b920a7dbcb)
 
 
 
 ### 2. Mention the average number of steps maintained over a four-minute period when the Monte Carlo (MC) control algorithm is executed with pretrained Q-values.
-![WhatsApp Image 2024-11-12 at 16 14 11_bf833bee](https://github.com/user-attachments/assets/457efcfb-9db4-4380-a6b2-1f44c8214af2)
+![image](https://github.com/user-attachments/assets/838df689-2e6b-40b0-83e3-041da0cbaac7)
+![image](https://github.com/user-attachments/assets/c215f97f-ebfe-42a9-9cdd-6908c6bdcfd2)
 
 
-### 3. Mention the average number of steps maintained over a four-minute period when the Monte Carlo (MC) control algorithm is executed with pretrained Q-values with modified parameters.
-![WhatsApp Image 2024-11-12 at 19 58 24_5c3fdf37](https://github.com/user-attachments/assets/663b451b-5ea7-4b57-8e27-8b56e5bc79ce)
+### 3.Mention the average number of steps maintained over a four-minute period when the Monte Carlo (MC) control algorithm is executed with pretrained Q-values.
+![image](https://github.com/user-attachments/assets/dc229c6a-d0d6-42f0-8e7f-1ff9cdad471e)
 
+![image](https://github.com/user-attachments/assets/095f1f1a-b657-471f-b3f9-82e9d8c28e1b)
+
+
+![image](https://github.com/user-attachments/assets/fa090677-5fb2-4a32-a32c-ed9b1900dbd0)
 
 ## RESULT:
 Thus, a Python program is developed to find the optimal policy for the given cart-pole environment using the Monte Carlo algorithm.
